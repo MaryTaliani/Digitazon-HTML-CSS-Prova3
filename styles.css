@@ -93,7 +93,7 @@ main > span{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0, 0.5);
-    height: 60px;
+    height: 100px;
 }
 .barra-footer > span{
     margin: 10px 30px;
