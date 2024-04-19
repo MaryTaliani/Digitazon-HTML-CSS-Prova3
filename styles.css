@@ -3,7 +3,7 @@ body{
     background-color: rgb(20, 20, 20);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-image: url("flying-unicorn.jpg");
+    background-image: url("/images/flying-unicorn.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,7 +25,7 @@ header{
     align-items: center;
 }
 .header-left > img{
-    padding-left: 30px;
+    padding: 5px 30px
 }
 .header-right{
     display: flex;
