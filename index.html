@@ -22,7 +22,18 @@
             <img src="./images/search.png" width="20px" alt="">
             <img src="./images/bell.png" width="20px" alt="">
             <img src="./images/user.png" width="20px" alt="">
+            <div class="dropdown">
+                <div class="icon-dropdown">
+                    <div class="dropdown-indicator"></div>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                </div>
+            </div>
         </div>
+        
     </header>
     <main>
         <img src="./images/net-series.png" alt="">
@@ -52,5 +63,13 @@
             <span>DETAILS</span>
         </div>
     </footer>
+    <script>
+        // Toggle dropdown content on click
+        document.querySelectorAll('.dropdown').forEach(item => {
+            item.addEventListener('click', event => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
