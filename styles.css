@@ -71,23 +71,33 @@ h1{
 }
 button{
     border: 0;
-    padding: 10px 20px;
-    margin-bottom: 10px;
+    padding: 15px 20px;
+    margin: 5px;
+    font-size: 1.2rem;
+    height: 60px;
 }
 .btn-white{
     background-color: white;
     color: black;
 }
+.btn-white:hover{
+    background-color: rgb(200, 200, 200);
+}
 .btn-gray{
     background-color: gray;
+    color: white;
+}
+.btn-gray:hover{
+    background-color: rgb(90, 90, 90);
     color: white;
 }
 main > span{
     margin-top: 10px;
 }
 .big-plus{
-    font-size: 1.3rem;
     vertical-align: middle;
+    padding-right: 4px;
+    padding-bottom: 2px;
 }
 .barra-footer{
     display: flex;
@@ -114,9 +124,7 @@ footer{
     text-align: center;
     padding: 2px 4px;
 }
-.triangle{
-    font-size: 1.2rem;
-}
+
 
 
 .dropdown {
@@ -167,3 +175,5 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+
